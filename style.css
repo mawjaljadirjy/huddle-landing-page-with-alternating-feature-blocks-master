@@ -1,84 +1,121 @@
- 
- 
-
- 
- 
- body{
-    font-size: 10px;
-    font-family: "Open Sans", sans-serif;
-    
- }
- 
- nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
- }
-
-
-
- .imgStyle{
-    width: 60px;
-    height: 10px;
-
- }
- .tryeFreeBtn{
-
-    width: 60px;
-    height: 15px;
-    font-size: 8px;
-    display: inline-block;
-    background-color: white;
-    border-radius: 20px;
-    border: none;
+body {
+     /* font-size: 10px; */
+     font-size: 12px;
+     font-family: "Open Sans", sans-serif;
 }
-    
 
- .firstCardContainer{
-    background: url('./images/bg-hero-mobile.svg') no-repeat center center;
-    background-size: cover; /* or contain, depending on your preference */
-    width: 200px; /* or set a specific width */
-    height: 300px; /* or set a specific height */
+nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
 
- }
- 
- .firstCard{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+.imgStyle {
+     width: 60px;
+     height: 10px;
+}
+.tryeFreeBtn {
+     width: 60px;
+     height: 15px;
+     font-size: 8px;
+     display: inline-block;
+     background-color: white;
+     border-radius: 20px;
+     border: none;
+}
 
-    
- }
- .community { 
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
- .h1Com{
-    align-self: center;
- }
+.firstCardContainer {
+     background: url("./images/bg-hero-mobile.svg") no-repeat center center;
+     background-size: cover; /* or contain, depending on your preference */
+     height: 370px;
+     text-align: center;
+}
 
- .pCom{
-    align-items: center;
+.firstCard {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.community {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.h1Com {
+     align-self: center;
+     font-weight: 600;
+}
 
- }
- .btnCom{
-    align-items: center;
+.pCom {
+     align-items: center;
+}
+.btnCom {
+     align-items: center;
+     background-color: hsl(322, 100%, 66%);
+     border: none;
+     border-radius: 10px;
+     color: white;
+     width: 200px;
+     height: 20px;
+}
 
- }
+.descriptionImage {
+     /* height: 250px; */
+     margin-top: 25px;
+     width: 200px;
+}
 
+.secondCard {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     box-shadow: 0 0 10px rgba(201, 199, 199, 0.5);
+     border-radius: 5px;
+     margin: 15px 10px;
+     padding: 15px 10px;
+}
+.imgeAll {
+     margin-top: 25px;
+     width: 200px;
+     align-self: center;
+}
 
+.secondCard p {
+     color: hsl(193, 29%, 82%);
+}
 
+.thirdCard {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     box-shadow: 0 0 10px rgba(201, 199, 199, 0.5);
+     border-radius: 5px;
+     margin: 15px 10px;
+     padding: 15px 10px;
+}
 
+.fourthCard {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     box-shadow: 0 0 10px rgba(201, 199, 199, 0.5);
+     border-radius: 5px;
+     margin: 15px 10px;
+     padding: 15px 10px;
+}
 
-
- 
-
-
- .description{
-    background: url('./images/illustration-mockups.svg') no-repeat center center;
-    background-size: cover; 
-    width: 50%; /* or set a specific width */
-    height: 250px; /* or set a specific height */
- }
+.fifthCard {
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     box-shadow: 0 0 10px rgba(201, 199, 199, 0.5);
+     border-radius: 5px;
+     margin: 15px 10px;
+     padding: 15px 10px;
+}
