@@ -1,0 +1,84 @@
+ 
+ 
+
+ 
+ 
+ body{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    
+ }
+ 
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+
+
+ .imgStyle{
+    width: 60px;
+    height: 10px;
+
+ }
+ .tryeFreeBtn{
+
+    width: 60px;
+    height: 15px;
+    font-size: 8px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+    
+
+ .firstCardContainer{
+    background: url('./images/bg-hero-mobile.svg') no-repeat center center;
+    background-size: cover; /* or contain, depending on your preference */
+    width: 200px; /* or set a specific width */
+    height: 300px; /* or set a specific height */
+
+ }
+ 
+ .firstCard{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+ }
+ .community { 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .h1Com{
+    align-self: center;
+ }
+
+ .pCom{
+    align-items: center;
+
+ }
+ .btnCom{
+    align-items: center;
+
+ }
+
+
+
+
+
+
+ 
+
+
+ .description{
+    background: url('./images/illustration-mockups.svg') no-repeat center center;
+    background-size: cover; 
+    width: 50%; /* or set a specific width */
+    height: 250px; /* or set a specific height */
+ }
